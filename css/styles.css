@@ -1,0 +1,238 @@
+body{
+    background-color: #FAFAFA;
+}
+.navbar-keeper{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+.navbar{
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 935px;
+    height: 55px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo{
+    color: #000000;
+    font-size: 25px;
+}
+.logo-instagram{
+    padding-right: 5px;
+}
+.icon-right:not(:last-child){
+    margin-right: 25px;
+}
+.img-logo-instagram{
+    height: 25px;
+    border-left: 1px solid #EAEAEA;
+    padding-left: 10px;
+}
+.search-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28px;
+    width: 215px;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+}
+.search-input{
+    background: inherit;
+    border: none;
+    width: 40%;
+}
+.right-navbar{
+    position: absolute;
+    right: 0px;
+}
+.hline{
+    height: 1px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 55px;
+    background-color: #EAEAEA;
+}
+.content{
+    width: 935px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 88px;
+    display: flex;
+}
+.left-content{
+    width: 614px;
+}
+.stories-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 118px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.storie{
+    text-align: center;
+    margin-right: 15px;
+    width: 66px;
+}
+.storie-profile{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.stories-imgs{
+    width: 66px;
+    height: 66px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.stories-profile-img{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 5.5px;
+    top: 5px;
+}
+.arrow-icon{
+    position: absolute;
+    right: 8px;
+    bottom: 46.5px;
+}
+.stories-back{
+    position: absolute;
+    left: 0;
+    width: 66px;
+    height: 66px;
+}
+.posts{
+    margin-top: 24px;
+    background-color: #FAFAFA;
+}
+.post{
+    margin-bottom: 60px;
+    height: 830px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.top-post{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 61px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.info-profile-post{
+    padding-left: 17px;
+    display: flex;
+}
+.profile-post{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.top-right-icon-post{
+    position: absolute;
+    right: 17px;
+    bottom: 22.5px;
+    font-size: 16px;
+    color: #000000;
+}
+.img-post{
+    width: 100%;
+    height: 612px;
+}
+.bottom-post{
+    height: 76px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.reactions-post{
+    position: relative;
+    display: flex;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.left-reactions{
+    margin-left: 18px;
+}
+.left-reactions-icon{
+    margin-right: 13px;
+    background: #FFFFFF;
+}
+.right-reactions{
+    position: absolute;
+    right: 18px;
+}
+.feedback-post{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+.text-feedback{
+    display: block;
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.bold-feedback-post{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.comment-post{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-top: 15px;
+}
+.left-comment{
+    margin-left: 18px;
+}
+.input-comment{
+    border: none;
+}
+.right-comment{
+    position: absolute;
+    right: 18px;
+}
+.publish-comment{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #B2DFFC;
+    transition: color 300ms;
+}
+.publish-comment:hover{
+    color: #0095F6;
+}
