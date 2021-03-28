@@ -107,6 +107,9 @@
     .img-post{
         height: auto;
     }
+    .comment-post{
+        padding-bottom: 5px;
+    }
 }
 @media (max-width: 935px) and (min-width: 614px){
     .content{
